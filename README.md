@@ -21,44 +21,12 @@ A modern restaurant ordering system that allows customers to browse the menu, pl
 - **QR Generation**: react-qr-code
 - **Notifications**: react-hot-toast
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 16+
-- npm or yarn
-- Supabase account
-
-### Setup
-
-1. Clone the repository
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Create a `.env` file in the root directory with your Supabase credentials:
-   ```
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-4. Run the development server:
-   ```
-   npm run dev
-   ```
-
-### Supabase Setup
-
-1. Create a new Supabase project
-2. Run the SQL migration in `supabase/migrations/create_tables.sql`
-3. Enable Row Level Security (RLS) on all tables
-4. Configure storage buckets for menu item images
-
 ## Admin Access
 
-To access the admin panel, navigate to `/admin/login` and use the password:
+To access the admin panel, navigate to `/admin/login` and use the password or click the admin panel link on the footer
 
 ```
-Dammy@$$2002$$
+😒*****Look****Away*****😆 
 ```
 
 ## License
